@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white_ffffff">
+
+
+    <ImageView
+        android:id="@+id/iv_guide_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="444dp"
+        android:src="@mipmap/guide_down_one" />
+
+    <LinearLayout
+        android:id="@+id/ll_scroll"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rectangle_gray_one_shape">
+
+        <View
+            android:id="@+id/v_scroll"
+            android:layout_width="60dp"
+            android:layout_height="10dp"
+            android:background="@drawable/rectangle_green_three_shape" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:id="@+id/iv_ride"
+        android:layout_width="140dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="242dp" />
+
+</FrameLayout>
